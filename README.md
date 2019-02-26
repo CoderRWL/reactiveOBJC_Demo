@@ -1,2 +1,2 @@
 # reactiveOBJC_Demo
-demo,stydy
+demo,study

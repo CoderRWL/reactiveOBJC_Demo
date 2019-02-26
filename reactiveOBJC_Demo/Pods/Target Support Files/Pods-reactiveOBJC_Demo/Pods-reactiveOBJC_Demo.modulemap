@@ -1,0 +1,6 @@
+module Pods_reactiveOBJC_Demo {
+  umbrella header "Pods-reactiveOBJC_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F93E4BF62CCC70623DE8D4D5 /* libPods-reactiveOBJC_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F790956FBEA3CCC63F4291 /* libPods-reactiveOBJC_Demo.a */; };
+		FBC531CD2226EB88005B475F /* RACSignal_SampleUse.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC531CC2226EB88005B475F /* RACSignal_SampleUse.m */; };
 		FBF25C0B222594FF00F08918 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF25C0A222594FF00F08918 /* AppDelegate.m */; };
 		FBF25C0E222594FF00F08918 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF25C0D222594FF00F08918 /* ViewController.m */; };
 		FBF25C11222594FF00F08918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF25C0F222594FF00F08918 /* Main.storyboard */; };
@@ -20,6 +21,9 @@
 		1DA1D736B1FEDB93F63F9019 /* Pods-reactiveOBJC_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveOBJC_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-reactiveOBJC_Demo/Pods-reactiveOBJC_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		53E2F56820D00DBF0883B8E2 /* Pods-reactiveOBJC_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactiveOBJC_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-reactiveOBJC_Demo/Pods-reactiveOBJC_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		A2F790956FBEA3CCC63F4291 /* libPods-reactiveOBJC_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactiveOBJC_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC531CB2226EB88005B475F /* RACSignal_SampleUse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSignal_SampleUse.h; sourceTree = "<group>"; };
+		FBC531CC2226EB88005B475F /* RACSignal_SampleUse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignal_SampleUse.m; sourceTree = "<group>"; };
+		FBC531CE2226EBAF005B475F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		FBF25C06222594FF00F08918 /* reactiveOBJC_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactiveOBJC_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF25C09222594FF00F08918 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBF25C0A222594FF00F08918 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +65,50 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FBC531C32226EA85005B475F /* 简单实用 */ = {
+			isa = PBXGroup;
+			children = (
+				FBC531CB2226EB88005B475F /* RACSignal_SampleUse.h */,
+				FBC531CC2226EB88005B475F /* RACSignal_SampleUse.m */,
+			);
+			path = "简单实用";
+			sourceTree = "<group>";
+		};
+		FBC531C62226EABE005B475F /* 基于ui控件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "基于ui控件";
+			sourceTree = "<group>";
+		};
+		FBC531C72226EAEC005B475F /* Foundation对象 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Foundation对象";
+			sourceTree = "<group>";
+		};
+		FBC531C82226EAFD005B475F /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		FBC531C92226EB0B005B475F /* 事件信号 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "事件信号";
+			sourceTree = "<group>";
+		};
+		FBC531CA2226EB1D005B475F /* 结合网络请求使用 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "结合网络请求使用";
+			sourceTree = "<group>";
+		};
 		FBF25BFD222594FF00F08918 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +130,12 @@
 		FBF25C08222594FF00F08918 /* reactiveOBJC_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				FBC531C32226EA85005B475F /* 简单实用 */,
+				FBC531C62226EABE005B475F /* 基于ui控件 */,
+				FBC531C72226EAEC005B475F /* Foundation对象 */,
+				FBC531C82226EAFD005B475F /* KVO */,
+				FBC531C92226EB0B005B475F /* 事件信号 */,
+				FBC531CA2226EB1D005B475F /* 结合网络请求使用 */,
 				FBF25C09222594FF00F08918 /* AppDelegate.h */,
 				FBF25C0A222594FF00F08918 /* AppDelegate.m */,
 				FBF25C0C222594FF00F08918 /* ViewController.h */,
@@ -91,6 +145,7 @@
 				FBF25C142225950100F08918 /* LaunchScreen.storyboard */,
 				FBF25C172225950100F08918 /* Info.plist */,
 				FBF25C182225950100F08918 /* main.m */,
+				FBC531CE2226EBAF005B475F /* PrefixHeader.pch */,
 			);
 			path = reactiveOBJC_Demo;
 			sourceTree = "<group>";
@@ -193,6 +248,7 @@
 			files = (
 				FBF25C0E222594FF00F08918 /* ViewController.m in Sources */,
 				FBF25C192225950100F08918 /* main.m in Sources */,
+				FBC531CD2226EB88005B475F /* RACSignal_SampleUse.m in Sources */,
 				FBF25C0B222594FF00F08918 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +316,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/rwli/Desktop/reactiveOBJC_Demo/reactiveOBJC_Demo/reactiveOBJC_Demo/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -317,6 +375,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/rwli/Desktop/reactiveOBJC_Demo/reactiveOBJC_Demo/reactiveOBJC_Demo/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

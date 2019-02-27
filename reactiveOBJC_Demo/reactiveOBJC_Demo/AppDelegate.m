@@ -21,16 +21,6 @@
     
     _window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     ViewController *vc = [[ViewController alloc]init];
-    //信号接收
-    [vc.btnClickSingle subscribeNext:^(id  _Nullable x) {
-        NSLog(@"%@",x);
-    }];
-    
-    //注册方法接收
-    [[vc rac_signalForSelector:@selector(doSome1: S2:)]subscribeNext:^(RACTuple * _Nullable x) {
-        NSLog(@"%@",x);
-    }];
-    
     _window.rootViewController = vc;
     [_window makeKeyAndVisible];
     

@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ReactiveObjC.h>
+
+
 
 @interface ViewController : UIViewController
 
-@property(nonatomic,strong)RACSubject *btnClickSingle;
+
 
 
 
